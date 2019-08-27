@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Online Doctor Information System</title>
+<style type="text/css">
+.input{
+	width:200px;
+	padding:5px;
+	border:none;
+	border-radius:5px;
+	background-color:#e5e5e5;
+	color:#000;
+}
+html { 
+  background: url(loginimg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.submit{
+	width:80px;
+	padding:5px;
+	border:none;
+	border-radius:4px;
+	background-color:#008dde;
+	color:#fff;
+	font-weight:bold;
+}
+.submit:hover{
+	background-color:green;
+}
+</style>
+</head>
+<body>
+<form name="f" method="post" action="login2.php">
+<table border="0" width="600px" align="center" cellpadding="10" style="box-shadow:none 0px 0px 0px 0px; margin-top:50px; border-radius:0px;">
+	<tr>
+	<td align="right">&nbsp;</td>
+	<td><b>ADMIN LOGIN</b></td></tr>
+	<tr>
+	<td align="right">Admin id</td>
+	<td><input type="text" name="id" class="input"/></td></tr>
+	<tr>
+	<td align="right">Password</td>
+	<td><input type="password" name="pass" class="input"/></td></tr>
+	<tr>
+	<td align="right">&nbsp;</td>
+	<td><input type="submit" value="Login" class="submit"/></td></tr>
+</table>
+
+</form>
+</body>
+</html>
